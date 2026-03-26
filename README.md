@@ -1,4 +1,4 @@
-# Professional Portfolio
+# Portfolio
 
 Welcome to my personal portfolio repository! This project showcases my professional skills, the high-quality services I offer to clients, and the diverse range of projects I've worked on. Built with modern web technologies, this site reflects my commitment to clean code, stunning design, and performant user experiences.
 
@@ -58,4 +58,4 @@ This portfolio is built using a modern, fast, and scalable tech stack:
 - **Lucide React:** For clean and professional iconography.
 
 
-## Feel free to reach out if you have any questions or are interested in collaborating!
+# **Feel free to reach out if you have any questions or are interested in collaborating!**
