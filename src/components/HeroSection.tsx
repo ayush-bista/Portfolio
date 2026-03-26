@@ -14,7 +14,7 @@ const HeroSection = () => {
         <h1
           className="text-display text-[clamp(5rem,18vw,26rem)] leading-none"
           style={{
-            background: "linear-gradient(to bottom, hsl(var(--foreground) / 0.22) 0%, hsl(var(--foreground) / 0.03) 100%)",
+            background: "linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             backgroundClip: "text",

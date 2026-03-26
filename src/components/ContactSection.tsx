@@ -6,11 +6,11 @@ const ContactSection = () => {
     <section id="contact" className="section-padding bg-background relative overflow-hidden">
       {/* Large CONTACT text with fade effect */}
       <ScrollReveal>
-        <div className="text-center mb-12">
+        <div className="text-center mb-6">
           <h2
-            className="text-display text-[clamp(4rem,14vw,12rem)] leading-none"
+            className="text-display text-[clamp(4rem,14vw,11rem)] leading-none"
             style={{
-              background: "linear-gradient(to bottom, hsl(var(--foreground) / 0.25) 0%, hsl(var(--foreground) / 0.03) 100%)",
+              background: "linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               backgroundClip: "text",

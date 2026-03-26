@@ -46,11 +46,11 @@ const ServicesSection = () => {
   return (
     <section id="services" className="section-padding bg-background relative overflow-hidden">
       <ScrollReveal>
-        <div className="text-center mb-16">
+        <div className="text-center mb-1">
           <h2
             className="text-display text-[clamp(4rem,14vw,12rem)] leading-none"
             style={{
-              background: "linear-gradient(to bottom, hsl(var(--foreground) / 0.25) 0%, hsl(var(--foreground) / 0.03) 100%)",
+              background: "linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               backgroundClip: "text",

@@ -49,7 +49,7 @@ const AboutSection = () => {
         {/* ABOUT header with enhanced animation */}
         <ScrollReveal>
           <motion.div
-            className="text-center mb-20"
+            className="text-center mb-6"
             initial={{ opacity: 0, y: 40 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
             transition={{
@@ -60,7 +60,7 @@ const AboutSection = () => {
             <motion.h2
               className="text-display text-[clamp(4rem,14vw,12rem)] leading-none"
               style={{
-                background: "linear-gradient(to bottom, hsl(var(--foreground) / 0.25) 0%, hsl(var(--foreground) / 0.03) 100%)",
+                background: "linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
