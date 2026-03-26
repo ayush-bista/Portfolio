@@ -58,4 +58,4 @@ This portfolio is built using a modern, fast, and scalable tech stack:
 - **Lucide React:** For clean and professional iconography.
 
 
-Feel free to reach out if you have any questions or are interested in collaborating!
+## Feel free to reach out if you have any questions or are interested in collaborating!
