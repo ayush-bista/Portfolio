@@ -1,73 +1,61 @@
-# Welcome to your Lovable project
+# Professional Portfolio
 
-## Project info
+Welcome to my personal portfolio repository! This project showcases my professional skills, the high-quality services I offer to clients, and the diverse range of projects I've worked on. Built with modern web technologies, this site reflects my commitment to clean code, stunning design, and performant user experiences.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Services Offered
 
-## How can I edit this code?
+When you hire me, you gain access to a comprehensive suite of digital services designed to elevate your brand and digital presence:
 
-There are several ways of editing your application.
+### 1. Design
+**UI/UX • Web Design • Mobile Apps**
+I provide efficient, knowledgeable, and exceptional design experiences. My focus is on pixel-perfect execution with creative excellence across all platforms, ensuring your users enjoy intuitive and beautiful interfaces.
 
-**Use Lovable**
+### 2. Code
+**React • TypeScript • Full-Stack**
+I write clean, performant code that brings designs to life. Using modern technologies, best practices, and scalable architecture, I build robust applications that stand the test of time and scale with your needs.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### 3. Branding
+**Logo Design • Brand Strategy • Visual Identity**
+I create memorable brand identities that resonate with your target audience. Through strategic visual storytelling and cohesive design systems, I help your brand stand out in a crowded market.
 
-Changes made via Lovable will be committed automatically to this repo.
+### 4. Marketing
+**Social Media • SEO • Content Strategy**
+I offer strategic marketing solutions to grow your brand and reach new customers. By leveraging data-driven campaigns and measurable results, I ensure your digital products get the visibility they deserve.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Featured Projects
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Here are some of the key projects featured in my portfolio:
 
-Follow these steps:
+### 🌟 AURELIA
+**Category:** Women Accessories (2025)
+A beautiful, modern web application for a women's accessories brand, focusing on elegant design and smooth user interactions.
+- **Link:** [Aurelia Live Site](https://aurelia-phi.vercel.app/)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🌟 StudyFlow
+**Category:** Website (2026)
+A comprehensive educational platform designed to streamline the studying process, offering intuitive tools for better productivity and learning management.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 🌟 ZestyGO
+**Category:** UI/UX (2025)
+A concept UI/UX project showcasing a vibrant and user-friendly interface design tailored for modern mobile applications. 
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🌟 Secure Mind Nepal
+**Category:** Website (2026)
+A digital initiative aimed at promoting cybersecurity awareness and solutions in Nepal, built with a focus on accessibility and clear information architecture.
+- **Link:** [Secure Mind Nepal Live Site](https://secure-mind-nepal.vercel.app)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## Technologies Used
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This portfolio is built using a modern, fast, and scalable tech stack:
+- **React & TypeScript:** For robust, type-safe UI components.
+- **Vite:** For lightning-fast development and optimized build processes.
+- **Tailwind CSS:** For highly customizable, utility-first styling.
+- **Framer Motion:** For smooth, elegant animations that bring the interface to life.
+- **Lucide React:** For clean and professional iconography.
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Feel free to reach out if you have any questions or are interested in collaborating!
