@@ -6,7 +6,7 @@ const ContactSection = () => {
     <section id="contact" className="section-padding bg-background relative overflow-hidden">
       {/* Large CONTACT text with fade effect */}
       <ScrollReveal>
-        <div className="text-center mb-6">
+        <div className="text-center mb-3">
           <h2
             className="text-display text-[clamp(4rem,14vw,11rem)] leading-none"
             style={{
@@ -22,19 +22,19 @@ const ContactSection = () => {
       </ScrollReveal>
 
       {/* Card with image + form */}
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-7xl w-full mx-auto px-4 md:px-6">
         <ScrollReveal>
-          <div className="bg-card rounded-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2 shadow-lg">
+          <div className="bg-card rounded-3xl overflow-hidden grid grid-cols-1 lg:grid-cols-2 shadow-2xl min-h-[600px] lg:min-h-[720px]">
             {/* Image */}
-            <div className="h-72 md:h-full">
-              <img src={heroPortrait} alt="Contact" className="w-full h-full object-cover" />
+            <div className="h-80 lg:h-full relative">
+              <img src={heroPortrait} alt="Contact" className="absolute inset-0 w-full h-full object-cover" />
             </div>
 
             {/* Form */}
-            <div className="p-8 md:p-12 flex flex-col justify-center">
-              <h3 className="text-display text-3xl md:text-4xl text-foreground mb-8">LET'S TALK</h3>
+            <div className="p-8 md:p-16 lg:p-20 flex flex-col justify-center">
+              <h3 className="text-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-12">LET'S TALK</h3>
 
-              <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+              <form className="space-y-8" onSubmit={(e) => e.preventDefault()}>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div>
                     <label className="text-foreground text-sm font-semibold mb-1 block">Full Name*</label>
