@@ -67,10 +67,10 @@ const HeroSection = () => {
           transition={{ duration: 0.75, delay: 0.25, ease: [0.22, 0.61, 0.36, 1] }}
         >
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/5 hover:bg-black/10 transition-colors mb-6 shadow-sm border border-black/5">
-            <span className="relative flex h-2 w-2">
+            {/* <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-            </span>
+            </span> */}
             <span className="text-[10px] sm:text-xs font-bold tracking-widest text-foreground/80 uppercase">
               AVAILABLE FOR WORK
             </span>

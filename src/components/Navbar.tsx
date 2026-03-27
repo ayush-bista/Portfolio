@@ -36,7 +36,7 @@ const Navbar = () => {
         onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
         className="text-foreground text-sm font-semibold tracking-[0.2em] uppercase"
       >
-        ✦ Ayush Bista
+        Ayush Bista
       </a>
 
       {/* Desktop links */}

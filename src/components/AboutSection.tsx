@@ -165,8 +165,8 @@ const AboutSection = () => {
 
               <div className="space-y-4">
                 {[
-                  "A passionate UI/UX designer with 7+ years of experience creating impactful digital products. I specialize in turning complex problems into elegant, user-centered solutions.",
-                  "Based in California, I've helped 120+ clients bring their visions to life through wireframing, prototyping, and visual design.",
+                  "A passionate UI/UX designer with 3+ years of experience creating impactful digital products. I specialize in turning complex problems into elegant, user-centered solutions.",
+                  "Based in California, I've helped 20+ clients bring their visions to life through wireframing, prototyping, and visual design.",
                 ].map((text, i) => (
                   <motion.p
                     key={i}

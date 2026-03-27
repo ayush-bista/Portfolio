@@ -6,6 +6,7 @@ import portfolio3 from "@/assets/portfolio-3.jpg";
 import portfolio4 from "@/assets/portfolio-4.jpg";
 import { ArrowUpRight } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
+import { useHref } from "react-router-dom";
 
 const services = [
   {
@@ -14,6 +15,7 @@ const services = [
     description: "Efficient, knowledgeable, & exceptional design experiences.",
     image: "https://i.pinimg.com/736x/63/35/5b/63355bd2ebff95a3a321f49b08c9a2c9.jpg",
     tags: ["UI/UX", "Web Design", "Mobile Apps"],
+    
   },
   {
     number: "02",
