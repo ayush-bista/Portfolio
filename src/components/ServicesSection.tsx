@@ -145,7 +145,17 @@ const ServicesSection = () => {
                 </div>
 
                 {/* Arrow */}
-                <div
+                <a
+                  href="#portfolio"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const target = document.getElementById("portfolio");
+                    if (target) {
+                      target.scrollIntoView({ behavior: "smooth" });
+                    } else {
+                      window.location.hash = "#portfolio";
+                    }
+                  }}
                   className="w-11 h-11 rounded-full border flex items-center justify-center shrink-0 relative z-10 transition-all duration-500"
                   style={{
                     borderColor: activeIndex === index
@@ -166,7 +176,7 @@ const ServicesSection = () => {
                       transform: activeIndex === index ? "rotate(0deg)" : "rotate(-45deg)",
                     }}
                   />
-                </div>
+                </a>
               </div>
 
               {/* Mobile / expanded content */}
