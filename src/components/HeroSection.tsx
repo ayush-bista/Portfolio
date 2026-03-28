@@ -13,7 +13,7 @@ const HeroSection = () => {
         transition={{ duration: 0.9, ease: [0.22, 0.61, 0.36, 1] }}
       >
           <h1
-          className="text-display text-[clamp(5rem,18vw,26rem)] leading-none"
+          className="text-display text-[clamp(5rem,18vw,16rem)] leading-none"
           style={{
             background: "linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%)",
             WebkitBackgroundClip: "text",
