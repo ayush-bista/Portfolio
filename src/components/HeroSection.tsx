@@ -59,9 +59,9 @@ const HeroSection = () => {
       {/* Bottom content */}
       <div className="relative z-10 w-full mt-auto pointer-events-none px-6 md:px-12 lg:px-17 pb-12">
         
-        {/* Left Side: Simplified Container for easier resizing */}
+        {/* Left Side: Glass Effect around Text */}
         <motion.div
-          className="pointer-events-auto w-full max-w-lg lg:max-w-xl translate-y-4"
+          className="pointer-events-auto w-full max-w-lg lg:max-w-xl translate-y-4 bg-white/10 backdrop-blur-3xl border border-white/20 shadow-2xl rounded-[3rem] p-8 md:p-12"
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 0.25, ease: [0.22, 0.61, 0.36, 1] }}
@@ -69,7 +69,7 @@ const HeroSection = () => {
           <p className="text-foreground/80 text-sm md:text-base mb-4">
             Hi 👋 I'm <span className="font-semibold text-foreground">Ayush Bista</span>
           </p>
-          <h2 className="text-display text-foreground text-4xl md:text-5xl lg:text-5xl leading-[1.1] tracking-tight">
+          <h2 className="text-display text-foreground text-4xl md:text-5xl lg:text-5xl leading-[1.1] tracking-tight uppercase">
             programming,<br />
             PRODUCT UI/UX<br />
             & DESIGN.
