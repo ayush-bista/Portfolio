@@ -85,9 +85,9 @@ const ContactSection = () => {
       <div className="mt-20 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
         <span className="text-muted-foreground text-sm">© 2026 Ayush Bista. All rights reserved.</span>
         <div className="flex gap-6 text-muted-foreground text-sm">
-          <a href="https://github.com/ayush-bista" target="_" className="hover:text-foreground transition-colors">Github</a>
-          <a href="https://www.linkedin.com/in/aayush-bista-ab2a76322/"target="_" className="hover:text-foreground transition-colors">LinkedIn</a>
-          <a href="https://www.instagram.com/aayush.biista/" target="_" className="hover:text-foreground transition-colors">Instagram</a>
+          <a href="https://github.com/ayush-bista" target="_blank" className="hover:text-foreground transition-colors">Github</a>
+          <a href="https://www.linkedin.com/in/aayush-bista-ab2a76322/"target="_blank" className="hover:text-foreground transition-colors">LinkedIn</a>
+          <a href="https://www.instagram.com/aayush.biista/" target="_blank" className="hover:text-foreground transition-colors">Instagram</a>
 
         </div>
       </div>

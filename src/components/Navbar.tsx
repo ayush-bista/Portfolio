@@ -55,14 +55,14 @@ const Navbar = () => {
 
       {/* Socials & CTA */}
       <div className="hidden md:flex items-center gap-4 min-w-[150px] justify-end">
-        <div className="flex items-center gap-4 border-r border-border/30 pr-4 mr-2">
+        <div className="flex items-center gap-5 border-r border-border/30 pr-4 mr-2">
           <a
             href="https://github.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground hover:text-foreground/60 transition-colors"
           >
-            <Github size={18} />
+            <Github size={20} />
           </a>
           <a
             href="https://linkedin.com"
@@ -70,7 +70,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="text-foreground hover:text-foreground/60 transition-colors"
           >
-            <Linkedin size={18} />
+            <Linkedin size={20} />
           </a>
           <a
             href="https://instagram.com"
@@ -78,7 +78,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="text-foreground hover:text-foreground/60 transition-colors"
           >
-            <Instagram size={18} />
+            <Instagram size={20} />
           </a>
         </div>
         <a
