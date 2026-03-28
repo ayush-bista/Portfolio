@@ -57,7 +57,7 @@ const HeroSection = () => {
       </motion.div>
 
       {/* Bottom content */}
-      <div className="relative z-10 w-full mb-0 md:mb-[-2rem] mt-auto pointer-events-none px-4 sm:px-[6vw] md:px-[8vw] lg:px-[0vw] pb-4">
+      <div className="relative z-10 w-full mt-auto pointer-events-none px-4 sm:px-[6vw] md:px-[8vw] lg:px-[0vw] pb-4">
         
         {/* Left Side: Glass Box with Original Text */}
         <motion.div

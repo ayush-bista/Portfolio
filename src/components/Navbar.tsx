@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Github, Linkedin, Instagram } from "lucide-react";
 
 const navLinks = [
   { label: "Services", id: "services" },
@@ -34,33 +34,61 @@ const Navbar = () => {
       <a
         href="#"
         onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-        className="text-foreground text-sm font-semibold tracking-[0.2em] uppercase"
+        className="text-foreground text-sm font-semibold tracking-[0.2em] uppercase min-w-[150px]"
       >
         Ayush Bista
       </a>
 
-      {/* Desktop links */}
-      <div className="hidden md:flex items-center gap-10">
+      {/* Desktop links - Centered */}
+      <div className="hidden md:flex items-center justify-center absolute left-1/2 -translate-x-1/2 gap-10">
         {navLinks.map((link) => (
           <a
             key={link.id}
             href={`#${link.id}`}
             onClick={(e) => { e.preventDefault(); scrollTo(link.id); }}
-            className="text-foreground/60 text-[13px] tracking-wide hover:text-foreground transition-colors duration-300"
+            className="text-foreground text-[13px] tracking-wide hover:text-foreground/60 transition-colors duration-300"
           >
             {link.label}
           </a>
         ))}
       </div>
 
-      {/* CTA */}
-      <a
-        href="#contact"
-        onClick={(e) => { e.preventDefault(); scrollTo("contact"); }}
-        className="hidden md:inline-flex bg-foreground text-background px-6 py-2.5 rounded-full text-xs font-medium tracking-wide hover:opacity-90 transition-opacity"
-      >
-        Hire Me
-      </a>
+      {/* Socials & CTA */}
+      <div className="hidden md:flex items-center gap-4 min-w-[150px] justify-end">
+        <div className="flex items-center gap-4 border-r border-border/30 pr-4 mr-2">
+          <a
+            href="https://github.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-foreground hover:text-foreground/60 transition-colors"
+          >
+            <Github size={18} />
+          </a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-foreground hover:text-foreground/60 transition-colors"
+          >
+            <Linkedin size={18} />
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-foreground hover:text-foreground/60 transition-colors"
+          >
+            <Instagram size={18} />
+          </a>
+        </div>
+        <a
+          href="#contact"
+          onClick={(e) => { e.preventDefault(); scrollTo("contact"); }}
+          className="bg-foreground text-background px-6 py-2.5 rounded-full text-xs font-medium tracking-wide hover:opacity-90 transition-opacity"
+        >
+          Hire Me
+        </a>
+      </div>
 
       {/* Mobile toggle */}
       <button className="md:hidden text-foreground" onClick={() => setIsOpen(!isOpen)}>
