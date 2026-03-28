@@ -59,23 +59,13 @@ const HeroSection = () => {
       {/* Bottom content */}
       <div className="relative z-10 w-full mb-0 md:mb-[-2rem] mt-auto pointer-events-none px-4 sm:px-[6vw] md:px-[8vw] lg:px-[0vw] pb-4">
         
-        {/* Left Side: Glass Box with Original Text */}
+        {/* Left Side: Text without Glass Box */}
         <motion.div
-          className="pointer-events-auto bg-background/30 backdrop-blur-xl border border-white/20 shadow-2xl rounded-[2rem] p-8 md:p-10 max-w-[280px] sm:max-w-sm md:max-w-md lg:max-w-lg translate-y-8 lg:translate-y-12"
+          className="pointer-events-auto max-w-[280px] sm:max-w-sm md:max-w-md lg:max-w-lg translate-y-8 lg:translate-y-12"
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 0.25, ease: [0.22, 0.61, 0.36, 1] }}
         >
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/5 hover:bg-black/10 transition-colors mb-6 shadow-sm border border-black/5">
-            {/* <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-            </span> */}
-            <span className="text-[10px] sm:text-xs font-bold tracking-widest text-foreground/80 uppercase">
-              AVAILABLE FOR WORK
-            </span>
-          </div>
-
           <p className="text-foreground/80 text-sm mb-3">
             Hi 👋 I'm <span className="font-semibold text-foreground">Ayush Bista</span>
           </p>
