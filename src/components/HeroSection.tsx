@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-import heroPortrait from "@/assets/hero-portrait.jpg";
-import { Download } from "lucide-react";
 
 const HeroSection = () => {
   return (

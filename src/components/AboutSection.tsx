@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import aboutPortrait from "@/assets/about-portrait.jpg";
 import ScrollReveal from "./ScrollReveal";
 
 const stats = [
