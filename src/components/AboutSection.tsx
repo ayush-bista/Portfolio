@@ -5,8 +5,8 @@ import aboutPortrait from "@/assets/about-portrait.jpg";
 import ScrollReveal from "./ScrollReveal";
 
 const stats = [
-  { value: "120+", label: "Projects Completed" },
-  { value: "7+", label: "Years Experience" },
+  { value: "20+", label: "Projects Completed" },
+  { value: "3+", label: "Years Experience" },
   { value: "5.0", label: "Avg. Client Rating" },
 ];
 
