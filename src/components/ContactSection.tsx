@@ -42,14 +42,14 @@ const ContactSection = () => {
     setIsSubmitting(true);
 
     try {
-      // These are your EmailJS IDs
+      // EmailJS credentials
       const serviceId = "service_sbjcgul";
       const templateId = "template_4bkykx7";
       const publicKey = "SfQG74ZUY8DiClyTX";
 
-      // Safety check to ensure keys are provided
-      if (!serviceId || !templateId || !publicKey || serviceId === "YOUR_SERVICE_ID") {
-        throw new Error("EmailJS is not fully configured.");
+      // Simple safety check to ensure keys are provided
+      if (!serviceId || !templateId || !publicKey) {
+        throw new Error("EmailJS configuration is missing.");
       }
 
       const result = await emailjs.sendForm(
