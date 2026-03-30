@@ -57,7 +57,7 @@ const Navbar = () => {
       <div className="hidden md:flex items-center gap-4 min-w-[150px] justify-end">
         <div className="flex items-center gap-5 border-r border-border/30 pr-4 mr-2">
           <a
-            href="https://github.com"
+            href="https://github.com/ayush-bista"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground hover:text-foreground/60 transition-colors"
@@ -65,7 +65,7 @@ const Navbar = () => {
             <Github size={20} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="linkedin.com/in/aayush-bista-ab2a76322/?skipRedirect=true"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground hover:text-foreground/60 transition-colors"
@@ -73,7 +73,7 @@ const Navbar = () => {
             <Linkedin size={20} />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/aayush.biista/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground hover:text-foreground/60 transition-colors"
