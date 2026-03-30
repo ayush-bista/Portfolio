@@ -97,7 +97,7 @@ const AboutSection = () => {
                 transition={{ duration: 0.4, ease: "easeOut" }}
               >
                 <motion.img
-                  src="src\assets\ReLens_Image_2024-10-21_20_08_26_2567x3462.jpg"
+                  src="/ReLens_Image_2024-10-21_20_08_26_2567x3462.jpg"
                   alt="Designer portrait"
                   className="w-full h-full object-cover object-top rounded-2xl shadow-2xl shadow-black/40"
                   initial={{ opacity: 0, scale: 1.06, y: 24 }}
