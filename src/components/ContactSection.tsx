@@ -98,7 +98,7 @@ const ContactSection = () => {
           <div className="bg-card rounded-3xl overflow-hidden grid grid-cols-1 lg:grid-cols-2 shadow-2xl min-h-[600px] lg:min-h-[720px]">
             {/* Image */}
             <div className="h-80 lg:h-full relative">
-              <img src="/495975954_18516454732038573_540815695845709490_n.jpg" alt="Contact" className="absolute inset-0 w-full h-full object-cover" />
+              <img src="/IMG_0646 (2).jpg" alt="Contact" className="absolute inset-0 w-full h-full object-cover" />
             </div>
 
             {/* Form */}

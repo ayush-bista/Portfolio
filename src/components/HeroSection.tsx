@@ -39,7 +39,7 @@ const HeroSection = () => {
             }}
           />
           <img
-            src="https://i.pinimg.com/736x/d7/f4/14/d7f4141d12eb068276e5219c99787a6e.jpg"
+            src="/20250414_114557 (1).jpg"
             alt="Designer portrait"
             className="absolute inset-0 w-full h-full object-cover object-center"
             style={{ borderRadius: "220px 220px 40px 40px" }}
