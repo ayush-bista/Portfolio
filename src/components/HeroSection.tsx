@@ -72,7 +72,7 @@ const HeroSection = () => {
             <span className="text-[10px] sm:text-xs font-bold tracking-widest text-foreground/80 uppercase">
               AVAILABLE FOR WORK
             </span>
-          </div>
+          </div> 
 
           <p className="text-foreground/80 text-sm mb-3">
             Hi 👋 I'm <span className="font-semibold text-foreground">Ayush Bista</span>
