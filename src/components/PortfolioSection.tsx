@@ -30,7 +30,7 @@ const projects = [
   },
   { 
     image: "https://trendsresearch.org/wp-content/uploads/2025/01/Cybersecurity-in-a-World-in-Crisis-V1-copy.jpg", 
-    link: "secure-mind-nepal.vercel.app",
+    link: "https://secure-mind-nepal.vercel.app",
     title: "Secure Mind Nepal", 
     category: "Website", 
     year: "2026", 

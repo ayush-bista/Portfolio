@@ -97,7 +97,7 @@ const AboutSection = () => {
                 transition={{ duration: 0.4, ease: "easeOut" }}
               >
                 <motion.img
-                  src="public\About.jpg"
+                  src="/About.jpg"
                   alt="Designer portrait"
                   className="w-full h-full object-cover object-top rounded-2xl shadow-2xl shadow-black/40"
                   initial={{ opacity: 0, scale: 1.06, y: 24 }}
@@ -165,7 +165,7 @@ const AboutSection = () => {
               <div className="space-y-4">
                 {[
                   "A passionate UI/UX designer and frontend developer with 3+ years of experience creating impactful digital products. I specialize in turning complex problems into elegant, user-centered solutions.",
-                  "Based in Itahari, Nepal, I've helped 20+ clients bring their visions to life through wireframing, prototyping, and visual design.",
+                  "Based in Itahari - Nepal, I've helped 20+ clients bring their visions to life through wireframing, prototyping, and visual design.",
                 ].map((text, i) => (
                   <motion.p
                     key={i}
