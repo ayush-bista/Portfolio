@@ -75,16 +75,16 @@ const PortfolioSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               
               {/* Content overlay */}
-              <div className="absolute inset-0 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
-                  <span className="text-accent text-[11px] font-medium tracking-[0.15em] uppercase">
+              <div className="absolute inset-0 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out delay-100">
+                  <span className="text-accent text-[11px] font-medium tracking-[0.15em] uppercase transition-all duration-500 ease-in-out">
                     {project.category} — {project.year}
                   </span>
                   <div className="flex items-center justify-between mt-1">
-                    <h3 className="text-display text-primary-foreground text-xl md:text-2xl">
+                    <h3 className="text-display text-primary-foreground text-xl md:text-2xl transition-all duration-500 ease-in-out group-hover:tracking-wider">
                       {project.title}
                     </h3>
-                    <div className="w-10 h-10 rounded-full bg-accent/90 flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-accent/90 flex items-center justify-center flex-shrink-0 transition-all duration-500 ease-in-out group-hover:scale-110">
                       <ArrowUpRight size={18} className="text-accent-foreground" />
                     </div>
                   </div>
