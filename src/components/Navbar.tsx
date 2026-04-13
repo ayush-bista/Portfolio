@@ -65,7 +65,7 @@ const Navbar = () => {
             <Github size={20} />
           </a>
           <a
-            href="https://www.linkedin.com/in/aayush-bista/"
+            href="https://www.linkedin.com/in/ayush-bista"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground hover:text-foreground/60 transition-colors"
